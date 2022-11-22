@@ -4,10 +4,10 @@ import pytz
 symbol = "EURUSD"
 
 Model_type = "v2_SimpleRNN"
-timeframe = mt5.TIMEFRAME_M15
+timeframe = mt5.TIMEFRAME_M1
 time_series = 15
 Debug =False
 
 
 timezone = pytz.timezone("Etc/UTC")
-utc_from = datetime.datetime(2020, 3, 1, tzinfo=timezone)
+utc_from = datetime.datetime(2022, 10, 1, tzinfo=timezone)
